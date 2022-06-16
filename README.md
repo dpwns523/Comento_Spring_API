@@ -4,13 +4,13 @@
 
 1. 개발환경 셋팅
 
-  1-1. 스프링 4.3.9 RELEASE 버전
+    1-1. 스프링 4.3.9 RELEASE 버전
   
-  1-2. log4j를 활용한 SQL log 사용
+    1-2. log4j를 활용한 SQL log 사용
   
-  1-3. mariaDB connection 사용 초기 데이터 삽입
+    1-3. mariaDB connection 사용 초기 데이터 삽입
   
-  1-4. Tomcat 구동 확인
+    1-4. Tomcat 구동 확인
   
   1-5. MyBatis 연동 및 Bean 생성 테스트
   
