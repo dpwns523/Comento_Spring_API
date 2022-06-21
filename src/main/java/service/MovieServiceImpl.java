@@ -1,7 +1,9 @@
 package service;
 
 import java.util.List;
-import javax.inject.Inject;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import dao.MovieDAO;
@@ -10,7 +12,7 @@ import vo.MovieVO;
 @Service
 public class MovieServiceImpl implements MovieService {
 
-    @Inject
+    @Autowired
     private MovieDAO dao;
 
     @Override

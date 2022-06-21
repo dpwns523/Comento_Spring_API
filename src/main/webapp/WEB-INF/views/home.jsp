@@ -19,9 +19,9 @@
     <tbody>
     <c:forEach items="${movieList}" var="movie">
         <tr>
-            <td>${movie.movie_name}</td>
+            <td>${movie.name}</td>
             <td>${movie.director}</td>
-            <td>${movie.types}</td>
+            <td>${movie.type}</td>
         </tr>
     </c:forEach>
     </tbody>

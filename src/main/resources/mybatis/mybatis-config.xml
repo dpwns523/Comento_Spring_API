@@ -12,6 +12,6 @@
         ColumnName = #{parameter} </select> -->
     <properties resource="config/config.properties"/>
     <typeAliases>
-        <typeAlias type="vo.MovieVO" alias="movieVO" />
+        <typeAlias type="vo.MovieVO" alias="MovieVO" />
     </typeAliases>
 </configuration>

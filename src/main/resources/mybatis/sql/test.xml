@@ -14,9 +14,15 @@
 
         이렇게 해야 한다.
     -->
+    <resultMap id="Movie" type="MovieVO">
+        <result property="id" column="movie_id"/>
+        <result property="name" column="movie_name"/>
+        <result property="director" column="director"/>
+        <result property="type" column="type"/>
+    </resultMap>
 
-    <select id="selectMovie" resultType="movieVO">
-        SELECT MOVIE_NAME, DIRECTOR, TYPES FROM MOVIE
+    <select id="selectMovie" resultMap="Movie">
+        SELECT MOVIE_NAME, DIRECTOR, TYPE FROM MOVIE
     </select>
 
 </mapper>
