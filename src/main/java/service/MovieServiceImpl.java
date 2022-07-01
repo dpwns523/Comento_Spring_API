@@ -9,10 +9,12 @@ import org.springframework.stereotype.Service;
 import dao.MovieDAO;
 import vo.MovieVO;
 
+import javax.inject.Inject;
+
 @Service
 public class MovieServiceImpl implements MovieService {
 
-    @Autowired
+    @Inject
     private MovieDAO dao;
 
     @Override
